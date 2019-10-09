@@ -8,15 +8,15 @@
 	position: relative;
 	height: 50%;
 	width: 100%;
+	overflow: hidden;
 }
 #college{
 	position: absolute;
-	float: left;
 	border:dashed 1px grey;
 }
 #high-school{
 	position: absolute;
-	float: right;
+	right: 0;
 	border:dashed 1px red;
 }
 
