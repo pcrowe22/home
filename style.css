@@ -11,8 +11,10 @@
 
 /*reused*/
 nav#navigation-bar ul {
+	
 	list-style-type: none;
-	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 0;
 	overflow: hidden;
 }
