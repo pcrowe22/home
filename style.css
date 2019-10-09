@@ -52,6 +52,13 @@
 }
 
 .official{
-	font-family: 'Gloria Hallelujah', courier new, cursive;
+	font-family: 'Special Elite', courier new, monospace;
 	text-align: center;
+}
+.handwriting{
+	font-family: 'Gloria Hallelujah', courier new, cursive;
+}
+
+#jobs, jobs>td{
+	border: solid 1px purple;
 }
