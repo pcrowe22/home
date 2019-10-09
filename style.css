@@ -1,3 +1,4 @@
+/*reused*/
 #wrapper{
 	width:960px;
 	background-repeat: no-repeat;
@@ -46,19 +47,16 @@ nav#navigation-bar ul li a:hover{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 #college{
-	position: absolute;
+	position: relative;
 	border:dashed 1px grey;
-	width:100%;
-	height: 100%;
 }
 #high-school{
-	position: absolute;
+	position: relative;
 	right: 0;
 	border:dashed 1px red;
-	width:100%;
-	height:100%;
 }
 
 
@@ -67,19 +65,28 @@ nav#navigation-bar ul li a:hover{
 	background-color: #E8FF99;
 }
 	
-	
+/*reused*/	
 .official{
 	font-family: 'Special Elite', courier new, monospace;
 	text-align: center;
 }
+/*reused*/
 .handwriting{
 	font-family: 'Gloria Hallelujah', courier new, cursive;
+	text-align: center;
+	color: navy;
 }
 
+/*reused*/
 .data{
 	border: solid 1px purple;
 	margin-left: auto;
 	margin-right: auto;
+}
+/*reused*/
+.block{
+	background-color: #007849;
+	color: white;
 }
 
 #set-right{
