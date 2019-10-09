@@ -126,8 +126,9 @@ nav#navigation-bar ul li a:hover{
 	border: solid cyan 5px;
 }
 #image-break-cap{
+	margin: 0;
 	color: orange;
-	font-size: 10em;
+	font-size: 5em;
 	text-align: center;
 }
 
