@@ -17,3 +17,9 @@
 	display: block;
 	text-decoration: none;
 }
+
+#wrapper{
+	width:960px;
+	background-repeat: no-repeat;
+  background: linear-gradient(#FFFFC8 0,#FFDB98 100%) fixed;
+}
