@@ -59,6 +59,6 @@
 	font-family: 'Gloria Hallelujah', courier new, cursive;
 }
 
-#jobs, jobs>td{
+.data, data>td{
 	border: solid 1px purple;
 }
