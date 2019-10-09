@@ -23,6 +23,7 @@
 }
 #navigation-item{
 	float: left;
+	padding: 0.5em;
 }
 #navigation-item:a{
 	display: block;
