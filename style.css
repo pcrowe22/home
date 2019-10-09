@@ -10,7 +10,7 @@
 	width:100%;
 }
 
-
+/*reused*/
 nav#navigation-bar ul {
 	list-style-type: none;
 	margin: 0;
@@ -85,6 +85,7 @@ nav#navigation-bar ul li a:hover{
 }
 /*reused*/
 .block{
+	float: none;
 	background-color: #007849;
 	color: white;
 	padding: 2em;
