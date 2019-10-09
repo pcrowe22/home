@@ -116,12 +116,10 @@ nav#navigation-bar ul li a:hover{
 	background-color: purple;
 	border: solid cyan 5px;
 }
-#image-break-pattern{
-	width: 20%;
-	height: 75%;
-	margin-left: auto;
-	margin-right: auto;
-	position: absolute;
+#image-break-cap{
+	font-color: orange;
+	font-size: 10em;
+	text-align: center;
 }
 
 
