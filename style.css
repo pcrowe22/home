@@ -4,3 +4,16 @@
 #school{
 	font-family: 'Patua One', century gothic, cursive;
 }
+
+#navigation bar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#navigation item{
+	float: left;
+}
+#navigation item:a{
+	display: block;
+	text-decoration: none;
+}
