@@ -1,5 +1,6 @@
 #resume {
 	font-family: lucida sans typewriter, courier new, monospace;
+	position: relative;
 }
 
 .education{
@@ -9,11 +10,14 @@
 	width: 100%;
 }
 #college{
+	position: absolute;
 	float: left;
+	border:dashed 1px grey;
 }
 #high-school{
 	position: absolute;
 	float: right;
+	border:dashed 1px red;
 }
 
 #navigation-bar{
