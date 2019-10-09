@@ -6,6 +6,7 @@
 	font-family: 'Patua One', century gothic, cursive;
 	position: relative;
 	height: 50%;
+	width: 100%;
 }
 #college{
 	float: left;
@@ -32,6 +33,8 @@
 	width:960px;
 	background-repeat: no-repeat;
   background: linear-gradient(#FFFFC8 0,#FFDB98 100%) fixed;
+	margin-left: auto;
+	margin-right: auto;
 }
 #wrapper > *{
 	width:100%;
