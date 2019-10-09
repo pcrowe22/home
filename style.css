@@ -89,6 +89,8 @@ nav#navigation-bar ul li a:hover{
 	color: white;
 	padding: 2em;
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #dog{
