@@ -23,3 +23,6 @@
 	background-repeat: no-repeat;
   background: linear-gradient(#FFFFC8 0,#FFDB98 100%) fixed;
 }
+#wrapper > *{
+	width:100;
+}
