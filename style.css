@@ -24,6 +24,8 @@
 #navigation-item{
 	float: left;
 	padding: 0.5em;
+	color: grey;
+	text-align: center;
 }
 #navigation-item:a{
 	display: block;
