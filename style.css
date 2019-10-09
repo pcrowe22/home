@@ -2,8 +2,10 @@
 	font-family: lucida sans typewriter, courier new, monospace;
 }
 
-.school, school + table{
+.education{
 	font-family: 'Patua One', century gothic, cursive;
+	position: relative;
+	height: 50%;
 }
 #college{
 	float: left;
