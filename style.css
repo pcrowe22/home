@@ -5,10 +5,9 @@
   background: linear-gradient(#FFFFC8 0,#FFDB98 100%) fixed;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: hidden;
 }
-#wrapper > *{
-	width:100%;
-}
+
 
 /*reused*/
 nav#navigation-bar ul {
