@@ -142,18 +142,18 @@ nav#navigation-bar ul li a:hover{
 	border-radius: 5em;
 }
 
-nav#links ul {
+footer#links ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-nav#links ul li{
+footer#links ul li{
 	float: right;
 	margin: 1em;
 	font-size: 2em;
 }
-nav#links ul li a{
+footer#links ul li a{
 	display: block;
 	text-decoration: none;
 	background-color: violet;
@@ -162,7 +162,7 @@ nav#links ul li a{
 	padding: 0.5em;
 	border-radius: 1em;
 }
-nav#links ul li a:hover{
+footer#links ul li a:hover{
 	border-radius: 0;
 	background-color: blue;
 }
