@@ -108,12 +108,12 @@ nav#navigation-bar ul li a:hover{
 
 #image-break{
 	width: 100%;
-	height: 20px;
-	padding: -0.2em;
+	height: 70px;
+	padding: 0.2em;
 	background-color: purple;
-	border: solid green 1px;
+	border: solid cyan 5px;
 }
-#image-break-patter{
+#image-break-pattern{
 	width: 20%;
 	height: 75%;
 	margin-left: auto;
