@@ -19,6 +19,8 @@
 #navigation-item{
 	float: left;
 	padding: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 #navigation-item a{
 	display: block;
@@ -46,11 +48,15 @@
 #college{
 	position: absolute;
 	border:dashed 1px grey;
+	width:100%;
+	height: 100%;
 }
 #high-school{
 	position: absolute;
 	right: 0;
 	border:dashed 1px red;
+	width:100%;
+	height:100%;
 }
 
 
