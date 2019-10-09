@@ -11,17 +11,17 @@
 #high-school{
 	position: absolute;
 	float: right;
+}
 
-
-#navigation bar{
+#navigation-bar{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 }
-#navigation item{
+#navigation-item{
 	float: left;
 }
-#navigation item:a{
+#navigation-item:a{
 	display: block;
 	text-decoration: none;
 }
