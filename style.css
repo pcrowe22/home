@@ -89,6 +89,22 @@ nav#navigation-bar ul li a:hover{
 	color: white;
 }
 
+#dog{
+	padding: 2em;
+	margin:auto;
+	border: dotted orange 3px;
+}
+#moving{
+	padding: 1em;
+	margin: auto;
+	border: solid green 2px;
+}
+#music{
+	padding: 0.5em;
+	margin: auto;
+	border: dashed violet 1px;
+}
+
 #set-right{
 	float: right;
 }
