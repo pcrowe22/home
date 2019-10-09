@@ -88,6 +88,7 @@ nav#navigation-bar ul li a:hover{
 	background-color: #007849;
 	color: white;
 	padding: 2em;
+	width: 100%;
 }
 
 #dog{
@@ -120,6 +121,53 @@ nav#navigation-bar ul li a:hover{
 	margin-right: auto;
 }
 
+
 #set-right{
 	float: right;
+	font-size: 1.5em;
+	font-family: goudy old style, arial black, sans-serif;
+}
+
+.movie{
+	 width: 800;
+	 height: 400;
+}
+
+.idea{
+	color: brown;
+	background-color: white;
+	padding: 5em;
+	border-radius: 10em;
+}
+
+nav#links ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+nav#links ul li{
+	float: right;
+	margin: 1em;
+	font-size: 2em;
+}
+nav#links ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: violet;
+	color: white;
+	text-align: center;
+	padding: 0.5em;
+	border-radius: 1em;
+}
+nav#links ul li a:hover{
+	border-radius: 0;
+	background-color: blue;
+}
+
+#thank-you{
+	font-size: 10em;
+	width: 100%;
+	text-align: center;
+	font-weight: 400;
 }
