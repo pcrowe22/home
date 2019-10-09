@@ -1,9 +1,17 @@
 #resume {
 	font-family: lucida sans typewriter, courier new, monospace;
 }
-#school, school + table{
+
+.school, school + table{
 	font-family: 'Patua One', century gothic, cursive;
 }
+#college{
+	float: left;
+}
+#high-school{
+	position: absolute;
+	float: right;
+
 
 #navigation bar{
 	list-style-type: none;
