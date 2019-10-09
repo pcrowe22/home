@@ -10,23 +10,23 @@
 }
 
 
-#navigation-bar{
+nav#navigation-bar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	position: relative;
+	overflow: hidden;
 }
-#navigation-item{
+nav#navigation-bar ul li{
 	float: left;
-	padding: 0.5em;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1em;
 }
-#navigation-item a{
+nav#navigation-bar ul li a{
 	display: block;
 	text-decoration: none;
-	background-color: grey;
+	background-color: orange;
+	color: white;
 	text-align: center;
+	padding: 0.5em;
 }
 #navigation-item a:hover{
 	border-radius: 0.25em;
