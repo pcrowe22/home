@@ -8,7 +8,6 @@
 	position: relative;
 	height: 50%;
 	width: 100%;
-	overflow: hidden;
 }
 #college{
 	position: absolute;
@@ -24,6 +23,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	position: relative;
 }
 #navigation-item{
 	float: left;
