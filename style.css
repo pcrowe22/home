@@ -1,7 +1,7 @@
 #resume {
 	font-family: lucida sans typewriter, courier new, monospace;
 }
-#school{
+#school, #school > table{
 	font-family: 'Patua One', century gothic, cursive;
 }
 
