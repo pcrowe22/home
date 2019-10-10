@@ -18,8 +18,7 @@
 nav#navigation-bar ul {
 	
 	list-style-type: none;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 0 auto;S
 	padding: 0;
 	overflow: hidden;
 	text-align: center;
@@ -154,6 +153,7 @@ nav#navigation-bar ul li a:hover{
 	background-color: white;
 	padding: 1em;
 	border-radius: 5em;
+	position: relative;
 }
 
 #links{
