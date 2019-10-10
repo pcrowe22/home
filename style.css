@@ -45,6 +45,7 @@ nav#navigation-bar ul li a:hover{
 #resume {
 	font-family: lucida sans typewriter, courier new, monospace;
 	position: relative;
+	text-align: center;
 	clear: both;
 }
 
@@ -88,6 +89,16 @@ nav#navigation-bar ul li a:hover{
 /*reused*/
 #data{
 	border: solid 1px purple;
+	margin-left: auto;
+	margin-right: auto;
+}
+#data2{
+	border: solid 1px red;
+	margin-left: auto;
+	margin-right: auto;
+}
+#data3{
+	border: solid 1px cyan;
 	margin-left: auto;
 	margin-right: auto;
 }
