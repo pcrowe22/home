@@ -22,6 +22,7 @@ nav#navigation-bar ul {
 	margin-right: auto;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
 }
 nav#navigation-bar ul li{
 	float: left;
@@ -155,6 +156,9 @@ nav#navigation-bar ul li a:hover{
 	border-radius: 5em;
 }
 
+#links{
+	position: relative;
+}
 section#links ul {
 	list-style-type: none;
 	margin: 0;
