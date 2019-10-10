@@ -26,6 +26,8 @@ nav#navigation-bar ul {
 nav#navigation-bar ul li{
 	float: left;
 	margin: 1em;
+	position: relative;
+	right: 50%;
 }
 nav#navigation-bar ul li a{
 	display: block;
@@ -162,11 +164,14 @@ section#links ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	text-align: center;
 }
 section#links ul li{
-	float: right;
+	float: left;
 	margin: 1em;
 	font-size: 2em;
+	position: relative;
+	right: 50%;
 }
 section#links ul li a{
 	display: block;
