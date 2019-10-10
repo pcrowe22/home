@@ -43,7 +43,7 @@ nav#navigation-bar ul li a:hover{
 }
 
 #resume {
-	font-family: lucida sans typewriter, courier new, monospace;
+	font-family: 'lucida sans typewriter', 'courier new', monospace;
 	position: relative;
 	text-align: center;
 	clear: both;
@@ -51,7 +51,7 @@ nav#navigation-bar ul li a:hover{
 
 
 .education{
-	font-family: 'Patua One', century gothic, cursive;
+	font-family: 'Patua One', 'century gothic', cursive;
 	position: relative;
 	width: 100%;
 	margin-left: auto;
@@ -76,12 +76,12 @@ nav#navigation-bar ul li a:hover{
 	
 /*reused*/	
 .official{
-	font-family: 'Special Elite', courier new, monospace;
+	font-family: 'Special Elite', 'courier new', monospace;
 	text-align: center;
 }
 /*reused*/
 .handwriting{
-	font-family: 'Gloria Hallelujah', courier new, cursive;
+	font-family: 'Gloria Hallelujah', 'courier new', cursive;
 	text-align: center;
 	color: navy;
 }
@@ -149,7 +149,7 @@ nav#navigation-bar ul li a:hover{
 #set-right{
 	float: right;
 	font-size: 1.5em;
-	font-family: goudy old style, arial black, sans-serif;
+	font-family: 'goudy old style', 'arial black', sans-serif;
 }
 
 .movie{
