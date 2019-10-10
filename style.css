@@ -170,21 +170,21 @@ nav#navigation-bar ul li a:hover{
 }
 
 
-section#links ul {
+div#links ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	text-align: center;
 }
-section#links ul li{
+div#links ul li{
 	float: left;
 	margin: 1em;
 	font-size: 1.2em;
 	position: relative;
 	left: 11%;
 }
-section#links ul li a{
+div#links ul li a{
 	display: block;
 	text-decoration: none;
 	background-color: violet;
@@ -193,7 +193,7 @@ section#links ul li a{
 	padding: 0.5em;
 	border-radius: 1em;
 }
-section#links ul li a:hover{
+div#links ul li a:hover{
 	border-radius: 0;
 	background-color: blue;
 }
