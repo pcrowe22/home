@@ -120,7 +120,7 @@ nav#navigation-bar ul li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	height: 70px;
+	height: 20%;
 	padding: 0.2em;
 	background-color: purple;
 	border: solid cyan 5px;
@@ -153,18 +153,18 @@ nav#navigation-bar ul li a:hover{
 	border-radius: 5em;
 }
 
-footer#links ul {
+section#links ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
-footer#links ul li{
+section#links ul li{
 	float: right;
 	margin: 1em;
 	font-size: 2em;
 }
-footer#links ul li a{
+section#links ul li a{
 	display: block;
 	text-decoration: none;
 	background-color: violet;
@@ -173,7 +173,7 @@ footer#links ul li a{
 	padding: 0.5em;
 	border-radius: 1em;
 }
-footer#links ul li a:hover{
+section#links ul li a:hover{
 	border-radius: 0;
 	background-color: blue;
 }
