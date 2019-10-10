@@ -158,6 +158,7 @@ nav#navigation-bar ul li a:hover{
 
 #links{
 	position: relative;
+	border: solid black 1px;
 }
 section#links ul {
 	list-style-type: none;
