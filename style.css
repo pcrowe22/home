@@ -142,6 +142,8 @@ nav#navigation-bar ul li a:hover{
 .movie{
 	 width: 90%;
 	 height: 70%;
+	 margin-left: auto;
+	 margin-right: auto;
 }
 
 .idea{
