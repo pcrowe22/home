@@ -104,7 +104,7 @@ nav#navigation-bar ul li a:hover{
 }
 /*reused*/
 .block{
-	float: none;
+	float: right;
 	background-color: #007849;
 	color: white;
 	padding: 2em;
@@ -153,10 +153,11 @@ nav#navigation-bar ul li a:hover{
 }
 
 .movie{
-	 width: 90%;
-	 height: 70%;
-	 margin-left: auto;
-	 margin-right: auto;
+	float: none;
+	width: 90%;
+	height: 70%;
+	display: block;
+	margin: 0 auto;
 }
 
 .idea{
