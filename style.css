@@ -24,13 +24,11 @@ nav#navigation-bar ul {
 	text-align: center;
 }
 nav#navigation-bar ul li{
-	float: left;
-	margin: 1em;
-	position: relative;
-	left: 34%;
+	display: inline;
+	
 }
 nav#navigation-bar ul li a{
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	background-color: orange;
 	color: white;
