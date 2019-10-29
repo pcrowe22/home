@@ -112,22 +112,26 @@ nav#navigation-bar ul li a:hover{
 }
 
 #dog{
+	display: block;
 	padding: 2em;
-	margin:auto;
+	margin: 0 auto;
 	border: dotted orange 3px;
 }
 #moving{
+	display: block;
 	padding: 1em;
-	margin: auto;
+	margin: 0 auto;
 	border: solid green 2px;
 }
 #music{
+	display: block;
 	padding: 0.5em;
-	margin: auto;
+	margin: 0 auto;
 	border: dashed violet 1px;
 }
 
 .image-break{
+	clear: both;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
