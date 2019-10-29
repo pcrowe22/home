@@ -15,7 +15,7 @@
 }
 
 /*reused*/
-nav#navigation-bar ul {
+nav ul {
 	
 	list-style-type: none;
 	margin: 0 auto;
@@ -23,11 +23,11 @@ nav#navigation-bar ul {
 	overflow: hidden;
 	text-align: center;
 }
-nav#navigation-bar ul li{
+nav ul li{
 	display: inline;
 	
 }
-nav#navigation-bar ul li a{
+nav ul li a{
 	display: inline-block;
 	text-decoration: none;
 	background-color: orange;
@@ -35,7 +35,7 @@ nav#navigation-bar ul li a{
 	text-align: center;
 	padding: 0.5em;
 }
-nav#navigation-bar ul li a:hover{
+nav ul li a:hover{
 	border-radius: 0.25em;
 	background-color: red;
 }
