@@ -13,7 +13,6 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-
 /*reused*/
 nav ul {
 	list-style-type: none;
@@ -39,15 +38,12 @@ nav ul li a:hover{
 	border-radius: 0.25em;
 	background-color: red;
 }
-
 #resume {
 	font-family: 'lucida sans typewriter', 'courier new', monospace;
 	position: relative;
 	text-align: center;
 	clear: both;
 }
-
-
 .education{
 	font-family: 'Patua One', 'century gothic', cursive;
 	position: relative;
@@ -65,13 +61,10 @@ nav ul li a:hover{
 	right: 0;
 	border:dashed 1px red;
 }
-
-
 .experience{
 	position: relative;
 	background-color: #E8FF99;
 }
-	
 /*reused*/	
 .official{
 	font-family: 'Special Elite', 'courier new', monospace;
@@ -85,7 +78,6 @@ nav ul li a:hover{
 	color: navy;
 	font-size: .7rem;
 }
-
 /*reused*/
 #data{
 	border: solid 1px purple;
@@ -112,7 +104,6 @@ nav ul li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 #dog{
 	display: block;
 	padding: 2em;
@@ -131,7 +122,6 @@ nav ul li a:hover{
 	margin: 0 auto;
 	border: dashed indigo 1px;
 }
-
 .image-break{
 	clear: both;
 	margin-left: auto;
@@ -148,22 +138,20 @@ nav ul li a:hover{
 	font-size: 3em;
 	text-align: center;
 }
-
-
 #set-right{
 	float: right;
 	font-size: 1.5em;
 	font-family: 'goudy old style', 'arial black', sans-serif;
+	padding: .6rem;
 }
-
 .movie{
 	float: none;
 	width: 90%;
 	height: 70%;
 	display: block;
 	margin: 0 auto;
+	padding: 2rem;
 }
-
 .idea{
 	margin-left: auto;
 	margin-right: auto;
@@ -173,8 +161,6 @@ nav ul li a:hover{
 	border-radius: 5em;
 	position: relative;
 }
-
-
 div#links ul {
 	list-style-type: none;
 	margin: 0;
@@ -202,7 +188,6 @@ div#links ul li a:hover{
 	border-radius: 0;
 	background-color: blue;
 }
-
 #thank-you{
 	font-size: 10em;
 	width: 100%;
