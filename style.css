@@ -55,6 +55,7 @@ nav ul li a:hover{
 #college{
 	position: relative;
 	border:dashed 1px grey;
+	margin: 1rem;
 }
 #high-school{
 	position: relative;
@@ -63,7 +64,7 @@ nav ul li a:hover{
 }
 .experience{
 	position: relative;
-	background-color: #E8FF99;
+	margin: 1rem;
 }
 /*reused*/	
 .official{
