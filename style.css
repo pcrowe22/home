@@ -45,6 +45,7 @@ nav ul li a:hover{
 	clear: both;
 }
 .education{
+	text-align: center;
 	font-family: 'Patua One', 'century gothic', cursive;
 	position: relative;
 	width: 100%;
