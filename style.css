@@ -54,7 +54,7 @@ nav ul li a:hover{
 	margin-right: auto;
 	
 }
-#college{
+#dottedBox{
 	position: relative;
 	border:dashed 1px grey;
 	margin-bottom: 1rem;
@@ -64,7 +64,7 @@ nav ul li a:hover{
 	padding: 1rem;
 	width: 95%;
 }
-.experience{
+.defaultDiv{
 	position: relative;
 	margin: 1rem;
 }
@@ -87,8 +87,7 @@ nav ul li a:hover{
 #smallData{
 	border: solid 1px purple;
 	font-size: .75rem;
-	margin-left: auto;
-	margin-right: auto;
+	margin-top: 1rem;
 }
 table{
 	margin: 0 auto;
@@ -105,7 +104,7 @@ table{
 .block li {
 	margin-left: -1rem;
 }
-#dog{
+#pic{
 	display: block;
 	padding: 2em;
 	margin: 0 auto;
