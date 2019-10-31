@@ -152,7 +152,8 @@ table{
 	float: right;
 	font-size: 1.5em;
 	font-family: 'goudy old style', 'arial black', sans-serif;
-	padding: .6rem;
+	margin-top: -1.5rem;
+	margin-bottom: 2rem;
 }
 .movie{
 	float: none;
