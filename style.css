@@ -62,12 +62,7 @@ nav ul li a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1rem;
-	width: 100%;
-}
-#high-school{
-	position: relative;
-	right: 0;
-	border:dashed 1px red;
+	width: 95%;
 }
 .experience{
 	position: relative;
@@ -90,18 +85,9 @@ nav ul li a:hover{
 }
 }
 /*reused*/
-#data{
+#smallData{
 	border: solid 1px purple;
-	margin-left: auto;
-	margin-right: auto;
-}
-#data2{
-	border: solid 1px red;
-	margin-left: auto;
-	margin-right: auto;
-}
-#data3{
-	border: solid 1px cyan;
+	font-size: .75rem;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -116,8 +102,6 @@ table{
 	padding: 1em;
 	width: 7%;
 	margin-left: -10rem;
-	float: right;
-	overflow: scroll;
 }
 .block li {
 	margin-left: -1rem;
@@ -127,18 +111,6 @@ table{
 	padding: 2em;
 	margin: 0 auto;
 	border: dotted orange 3px;
-}
-#moving{
-	display: block;
-	padding: 1em;
-	margin: 0 auto;
-	border: solid green 2px;
-}
-#music{
-	display: block;
-	padding: 0.5em;
-	margin: 0 auto;
-	border: dashed indigo 1px;
 }
 .image-break{
 	clear: both;
