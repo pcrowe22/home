@@ -107,8 +107,7 @@ table{
 }
 /*reused*/
 .block{
-	position: absolute;
-	display: fixed;
+	position: fixed;
 	background-color: #007849;
 	color: white;
 	padding: 2em;
