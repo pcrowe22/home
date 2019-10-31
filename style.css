@@ -2,7 +2,7 @@
 #wrapper{
 	width:960px;
 	background-repeat: no-repeat;
-  background: linear-gradient(#FFFFC8 0,#FFDB98 100%) fixed;
+  background: linear-gradient(#FFFFC8 0,#FFD674 100%) fixed;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -107,11 +107,12 @@ table{
 }
 /*reused*/
 .block{
+	position: absolute;
 	display: fixed;
 	background-color: #007849;
 	color: white;
 	padding: 2em;
-	width: 12%;
+	width: 10%;
 	margin-left: -10rem;
 }
 #dog{
