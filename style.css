@@ -117,6 +117,10 @@ table{
 	width: 7%;
 	margin-left: -10rem;
 	float: right;
+	overflow: scroll;
+}
+.block li {
+	margin-left: -1rem;
 }
 #dog{
 	display: block;
