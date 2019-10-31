@@ -55,7 +55,10 @@ nav ul li a:hover{
 #college{
 	position: relative;
 	border:dashed 1px grey;
-	margin: 1rem;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 1rem;
 }
 #high-school{
@@ -104,13 +107,12 @@ table{
 }
 /*reused*/
 .block{
-	clear: both;
+	display: fixed;
 	background-color: #007849;
 	color: white;
 	padding: 2em;
-	width: 95%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 12%;
+	margin-left: -10rem;
 }
 #dog{
 	display: block;
