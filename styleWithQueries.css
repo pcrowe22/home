@@ -25,6 +25,29 @@
 		padding: 1rem;
 		background-color: rgba(240, 0, 0, 0.3);
 	}
+	
+	#resume {
+		font-family: 'lucida sans typewriter', 'courier new', monospace;
+		position: relative;
+		text-align: center;
+		clear: both;
+	}
+	.heavySharp{
+		text-align: center;
+		font-family: 'Patua One', 'century gothic', cursive;
+		position: relative;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.official{
+		font-family: 'Special Elite', 'courier new', monospace;
+		font-size: 3rem;
+		text-align: center;
+	}
+	table{
+		margin: 0 auto;
+	}
 }
 @media screen and (min-width: 1024px) {
 	#wrapper{
