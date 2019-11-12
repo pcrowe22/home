@@ -1,9 +1,6 @@
-#wrapper{
-	
-}
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
 	#wrapper{
-		width: 480px;
+		width: 100%;
 		background-repeat: no-repeat;
 		background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed;
 		margin-left: auto;
@@ -11,6 +8,22 @@
 	}
 	th, td {
 		font-size: 1.5rem;
+	}
+	#dottedBox{
+		position: relative;
+		border:dashed 1px black;
+		margin-bottom: 1rem;
+		margin-top: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0.5rem;
+		width: 95%;
+	}
+	.defaultDiv{
+		position: relative;
+		margin: 1rem;
+		padding: 1rem;
+		background-color: rgba(240, 0, 0, 0.3);
 	}
 @media screen and (min-width: 1024px) {
 	#wrapper{
