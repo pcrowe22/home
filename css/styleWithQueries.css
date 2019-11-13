@@ -68,8 +68,11 @@
 	}
 	.dropdownLinks {
 		display: none;
-		position: absolute;
+		position: relative;
 		z-index: 1;
+	}
+	nav ul li {
+		list-style-type: none;
 	}
 	.dropdownLinks a{
 		margin-top: 1rem;
