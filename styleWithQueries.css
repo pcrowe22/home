@@ -14,6 +14,9 @@
 	h1, h2, h3, th{
 		font-weight: bold;
 	}
+	li{
+		list-style-type: square;
+	}
 	#wrapper{
 		width: 100%;
 		background-repeat: no-repeat;
@@ -96,8 +99,23 @@
 	}
 }
 @media screen and (min-width: 480px) {
-	p, h1, td, div, th{
+		p, h1, td, div, th, ul, li{
 		margin: 1rem;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.8rem;
+	}
+	h3{
+		font-size: 1.5rem;
+	}
+	h1, h2, h3, th{
+		font-weight: bold;
+	}
+	li{
+		list-style-type: square;
 	}
 	#wrapper{
 		width:960px;
