@@ -1,5 +1,5 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
-	p, h1, td, div, th, ul, li{
+	p, h1, h2, h3, td, div, th, ul, tr, table{
 		margin: 2rem;
 	}
 	h1{
@@ -16,6 +16,7 @@
 	}
 	li{
 		list-style-type: square;
+		margin: 1rem;
 	}
 	#wrapper{
 		width: 100%;
@@ -26,6 +27,7 @@
 	}
 	th, td {
 		font-size: 1.5rem;
+		padding: .5rem;
 	}
 	#dottedBox{
 		position: relative;
@@ -187,6 +189,9 @@
 	}
 	table{
 		margin: 0 auto;
+	}
+	th, td {
+		padding: .5rem;
 	}
 	.block{
 		position: fixed;
