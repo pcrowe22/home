@@ -1,4 +1,7 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
+	p, h1, td, div, th{
+		margin: 1rem;
+	}
 	#wrapper{
 		width: 100%;
 		background-repeat: no-repeat;
@@ -81,6 +84,9 @@
 	}
 }
 @media screen and (min-width: 480px) {
+	p, h1, td, div, th{
+		margin: 1rem;
+	}
 	#wrapper{
 		width:960px;
 		background-repeat: no-repeat;
