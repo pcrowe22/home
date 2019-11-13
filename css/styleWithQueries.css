@@ -50,8 +50,8 @@
 		background-color: rgba(240, 0, 0, 0.3);
 	}
 	#nav-button{
-		/*display: block;
-		background-color: red;
+		display: inline;
+		/*background-color: red;
 		text-align: center;
 		height: 300px;
 		color: white;
