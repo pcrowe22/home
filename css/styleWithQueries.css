@@ -99,7 +99,7 @@
 	}
 }
 @media screen and (min-width: 480px) {
-	p, h1, td, div, th, ul, li{
+	p, h1, h2, h3, td, div, th, ul, tr, table{
 		margin: 2rem;
 	}
 	h1{
@@ -116,6 +116,7 @@
 	}
 	li{
 		list-style-type: square;
+		margin: 1rem;
 	}
 	#wrapper{
 		width:960px;
