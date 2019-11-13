@@ -12,5 +12,6 @@ function displayNav() {
 				openDropdown.classList.remove('show');
 			}
 		}
+		isShowing = true;
 	}
 }
