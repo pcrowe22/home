@@ -1,4 +1,22 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
+	p, h1, td, div, th, ul, li{
+		margin: 2rem;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.8rem;
+	}
+	h3{
+		font-size: 1.5rem;
+	}
+	h1, h2, h3, th{
+		font-weight: bold;
+	}
+	li{
+		list-style-type: square;
+	}
 	#wrapper{
 		width: 100%;
 		background-repeat: no-repeat;
@@ -25,7 +43,12 @@
 		padding: 1rem;
 		background-color: rgba(240, 0, 0, 0.3);
 	}
+	#nav-button{
+		background-color: red;
+	}
 	nav {
+		position: absolute;
+		right: 9000px;
 		padding: 1rem;
 		background-color: red;
 		color: white;
@@ -40,7 +63,7 @@
 	}
 	nav ul li a{
 		margin-top: 1rem;
-		display: inline-block;
+		display: block;
 		text-decoration: none;
 		background-color: orange;
 		color: white;
@@ -76,12 +99,33 @@
 	}
 }
 @media screen and (min-width: 480px) {
+	p, h1, td, div, th, ul, li{
+		margin: 2rem;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.8rem;
+	}
+	h3{
+		font-size: 1.5rem;
+	}
+	h1, h2, h3, th{
+		font-weight: bold;
+	}
+	li{
+		list-style-type: square;
+	}
 	#wrapper{
 		width:960px;
 		background-repeat: no-repeat;
 		background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed;
 		margin-left: auto;
 		margin-right: auto;
+	}
+	#nav-button{
+		display: none;
 	}
 	nav ul {
 		clear: both;
