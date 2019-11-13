@@ -25,6 +25,32 @@
 		padding: 1rem;
 		background-color: rgba(240, 0, 0, 0.3);
 	}
+	nav {
+		padding: 1rem;
+		background-color: red;
+		color: white;
+	}
+	nav ul {
+		clear: both;
+		list-style-type: none;
+		margin: 0 auto;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+	nav ul li a{
+		margin-top: 1rem;
+		display: inline-block;
+		text-decoration: none;
+		background-color: orange;
+		color: white;
+		text-align: center;
+		padding: 0.5em;
+	}
+	nav ul li a:hover{
+		border-radius: 0.25em;
+		background-color: red;
+	}
 	
 	#resume {
 		font-family: 'lucida sans typewriter', 'courier new', monospace;
@@ -49,7 +75,7 @@
 		margin: 0 auto;
 	}
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 480px) {
 	#wrapper{
 		width:960px;
 		background-repeat: no-repeat;
