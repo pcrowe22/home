@@ -8,8 +8,8 @@
 	h2{
 		font-size: 1.8rem;
 	}
-	h3{
-		font-size: 1.5rem;
+	p, h3{
+		font-size: 1.6rem;
 	}
 	h1, h2, h3, th{
 		font-weight: bold;
