@@ -50,12 +50,12 @@
 		background-color: rgba(240, 0, 0, 0.3);
 	}
 	#nav-button{
-		display: block;
+		/*display: block;
 		background-color: red;
 		text-align: center;
 		height: 300px;
 		color: white;
-		margin: 1rem;
+		margin: 1rem;*/
 	}
 	nav {
 		padding: 1rem;
