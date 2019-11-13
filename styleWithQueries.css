@@ -1,6 +1,18 @@
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
-	p, h1, td, div, th{
+	p, h1, td, div, th, ul, li{
 		margin: 1rem;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	h2{
+		font-size: 1.8rem;
+	}
+	h3{
+		font-size: 1.5rem;
+	}
+	h1, h2, h3, th{
+		font-weight: bold;
 	}
 	#wrapper{
 		width: 100%;
