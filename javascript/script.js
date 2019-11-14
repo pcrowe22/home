@@ -1,6 +1,5 @@
 
 function initMap(){
-	alert('This is a map of my neighborhood and where I photograph and compile into my game.');
 	var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(41.7889, -88.0021);
 	var mapOptions = {
@@ -118,7 +117,7 @@ function initMap(){
 	
 }
 
-google.maps.event.addDomListener(window, 'load', initMap);
+/*google.maps.event.addDomListener(window, 'load', initMap);*/
 
 var slideIndex = 0;
 showSlides();
