@@ -337,6 +337,9 @@
 		margin: 0 auto;
 		border: dotted orange 3px;
 	}
+	.picShow {
+		width: 50%;
+	}
 	.image-break{
 		clear: both;
 		margin-left: auto;
