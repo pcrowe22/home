@@ -123,8 +123,8 @@ if (sPage == "map.html") {
 } 
 if (sPage == "pictures.html") {
 	
-	//var slideIndex = 0;
-	//showSlides();
+	var slideIndex = 0;
+	showSlides();
 
 	var slideIndex = 1;
 	showSlides(slideIndex);
