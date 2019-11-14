@@ -110,6 +110,17 @@
 	table{
 		margin: 0 auto;
 	}
+	.block{
+		position: relative;
+		background-color: #007849;
+		color: white;
+		padding: 2em;
+		width: 100%;
+		top: 1000px;
+	}
+	.block li {
+		display: inline;
+	}
 }
 @media screen and (min-width: 480px) {
 	p, h1, h2, h3, td, div, th, ul, tr, table{
@@ -138,7 +149,17 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-
+	.block{
+		position: fixed;
+		background-color: #007849;
+		color: white;
+		padding: 1em;
+		width: 7%;
+		margin-left: -10rem;
+	}
+	.block li {
+		margin-left: -1rem;
+	}
 	nav ul {
 		clear: both;
 		list-style-type: none;
@@ -202,17 +223,7 @@
 	th, td {
 		padding: .5rem;
 	}
-	.block{
-		position: relative;
-		background-color: #007849;
-		color: white;
-		padding: 2em;
-		width: 100%;
-		top: 1000px;
-	}
-	.block li {
-		display: inline;
-	}
+
 	
 	* {box-sizing:border-box}
 
