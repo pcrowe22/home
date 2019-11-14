@@ -119,9 +119,7 @@ if (sPage == "map.html") {
 		});
 	
 	}
-	function showMap() {
-		google.maps.event.addDomListener(window, 'load', initMap);
-	}
+	google.maps.event.addDomListener(window, 'load', initMap);
 } 
 if (sPage == "pictures.html") {
 	
