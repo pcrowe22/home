@@ -120,7 +120,8 @@ if (sPage == "map.html") {
 	
 	}
 	google.maps.event.addDomListener(window, 'load', initMap);
-} else if (sPage == "pictures.html") {
+} 
+if (sPage == "pictures.html") {
 	
 	var slideIndex = 0;
 	showSlides();
