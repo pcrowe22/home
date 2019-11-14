@@ -38,9 +38,9 @@ function initMap() {
 	});
 }
 function init(){
-	//alert('it works');
+	alert('This is a map of my neighborhood and where I photograph and compile into my game.');
 	var el = document.getElementById('canvas');
-	var myLocation = new google.maps.LatLng(41.835117, -87.627130);
+	var myLocation = new google.maps.LatLng(41.7889, -88.0021);
 	var mapOptions = {
 		center: myLocation,
 		zoom: 18,
@@ -56,10 +56,10 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'iit-icon.png'
+		icon: 'Master Sword.png'
 	});
 
-	var contentString = '<h1>IIT Perlstein Hall</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
+	var contentString = '<h1>Home Base</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
 
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
