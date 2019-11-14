@@ -224,7 +224,7 @@
 		position: fixed;
 		background-color: #007849;
 		color: white;
-		padding: 1em;
+		padding: 2em;
 		width: 7%;
 		margin-left: -10rem;
 	}
@@ -326,4 +326,98 @@
   from {opacity: .4}
   to {opacity: 1}
 }
+	#fluid{
+		width: 100%;
+		background-repeat: no-repeat;
+		background: linear-gradient(#FF78FF 0,#0078FF 100%) fixed;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#smallData{
+		border: solid 1px purple;
+		font-size: .75rem;
+		margin-top: 1rem;
+	}
+	.pic{
+		display: block;
+		padding: 2em;
+		margin: 0 auto;
+		border: dotted orange 3px;
+	}
+	.image-break{
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+		width: 95%;
+		height: 20%;
+		padding: 0.2em;
+		background-color: purple;
+		border: solid cyan 5px;
+		margin: 1rem;
+	}	
+	.image-break-cap{
+		margin: 0;
+		color: orange;
+		font-size: 3em;
+		text-align: center;
+		padding-bottom:.5rem;
+	}	
+	#set-right{
+		float: right;
+		font-size: 1.5em;
+		font-family: 'goudy old style', 'arial black', sans-serif;
+		margin-top: -1.5rem;
+		margin-bottom: 2rem;
+	}
+	.movie{
+		float: none;
+		width: 90%;
+		height: 70%;
+		display: block;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+	.idea{
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+		color: brown;
+		background-color: white;
+		padding: 1em;
+		border-radius: 5em;
+		position: relative;
+	}
+	div#links ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		text-align: center;
+	}
+	div#links ul li{
+		float: left;
+		margin: 1em;
+		font-size: 1.2em;
+		position: relative;
+		left: 11%;
+	}
+	div#links ul li a{
+		display: block;
+		text-decoration: none;
+		background-color: violet;
+		color: white;
+		text-align: center;
+		padding: 0.5em;
+		border-radius: 1em;
+	}
+	div#links ul li a:hover{
+		border-radius: 0;
+		background-color: blue;
+	}
+	#thank-you{
+		font-size: 10em;
+		width: 100%;
+		text-align: center;
+		font-weight: 400;
+	}
 }
