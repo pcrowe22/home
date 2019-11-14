@@ -53,8 +53,9 @@
 		display: block;
 		background-color: red;
 		text-align: center;
-		/*height: 300px;
-		color: white;
+		height: 300px;
+		width: 100%;
+		/*color: white;
 		margin: 1rem;
 		font-size: 2rem*/
 	}
