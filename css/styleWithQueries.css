@@ -49,7 +49,7 @@
 		padding: 1rem;
 		background-color: rgba(240, 0, 0, 0.3);
 	}
-	#sandwich{
+	.sandwich{
 		display: block;
 		background-color: red;
 		text-align: center;
@@ -145,7 +145,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	#nav-button{
+	.sandwich{
 		display: none;
 	}
 	nav ul {
