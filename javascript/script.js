@@ -26,17 +26,16 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
 
-var map;
+/*var map;
 function initMap() {
 	map = new google.maps.Map(document.getElementById('map'), {
 		center: {lat: -34.397, lng: 150.644},
 		zoom: 8
 	});
-}
+}*/
 function init(){
 	alert('This is a map of my neighborhood and where I photograph and compile into my game.');
 	var el = document.getElementById('canvas');
@@ -71,5 +70,5 @@ function init(){
 
 
 }
-
+init();
 google.maps.event.addDomListener(window, 'load', init);
