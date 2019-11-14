@@ -154,7 +154,7 @@
 		background-color: #007849;
 		color: white;
 		padding: 1em;
-		width: 7%;
+		width: 10%;
 		margin-left: -10rem;
 	}
 	.block li {
@@ -436,7 +436,7 @@
 	#container {
 			width: 850px;
 			height: 600px;
-			background-color: brown;
+			background-color: silver;
 			margin:0 auto;
 			overflow: hidden;
 	}
