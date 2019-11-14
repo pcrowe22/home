@@ -117,7 +117,7 @@ function initMap(){
 	
 }
 
-/*google.maps.event.addDomListener(window, 'load', initMap);*/
+google.maps.event.addDomListener(window, 'load', initMap);
 
 var slideIndex = 0;
 showSlides();
