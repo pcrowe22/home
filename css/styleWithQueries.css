@@ -78,6 +78,7 @@
 		color: white;
 		text-align: center;
 		padding: 0.5em;
+		width: 100%;
 	}
 	.dropdownLinks a:hover{
 		border-radius: 0.25em;
