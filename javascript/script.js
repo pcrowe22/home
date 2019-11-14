@@ -54,11 +54,10 @@ function init(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'media/Master Sword.png'
+		icon: 'media/triforce.png'
 	});
 
-	var contentString = '<h1>Home Base</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate odit optio, voluptatem placeat odio dignissimos illo magnam esse asperiores voluptas at iure vero eum, nemo aperiam? Ipsam, atque nobis rem.</p>';
-
+	var contentString = '<h1>Home Base</h1><p>This is where the game starts, and multiple paths will branch off from here. I want to make a library shelf here where you can put books you have collected from around the neighborhood.</p><p>The Master Swords represent where I have walked in the past.</p>';
 	var infowindow = new google.maps.InfoWindow({
       content: contentString
   	});
@@ -66,7 +65,14 @@ function init(){
 	google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
-
+		
+	var walkRoute1 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.787177, -99.001968),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	
+	
 
 }
 
