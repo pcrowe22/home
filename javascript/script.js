@@ -1,6 +1,6 @@
 var sPath = window.location.pathname;
 var sPage = sPath.substring(sPath.lastIndexOf('/' + 1);
-if (sPage == "map.html"0 {
+if (sPage == "map.html") {
 	
 	function initMap(){
 		var el = document.getElementById('canvas');
