@@ -126,6 +126,32 @@ function init(){
 		map: myMap,
 		icon: 'media/Master Sword.png'
 	});
+	var walkRoute13 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.780590, -88.003610),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	var walkRoute14 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.781460, -88.004134),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	var walkRoute15 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.783308, -88.008509),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	var walkRoute16 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.787287, -88.008743),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	var walkRoute17 = new google.maps.Marker({
+		position: new google.maps.LatLng(41.787483, -88.003873),
+		map: myMap,
+		icon: 'media/Master Sword.png'
+	});
+	
 
 }
 
