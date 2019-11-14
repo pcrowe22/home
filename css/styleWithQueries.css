@@ -203,15 +203,15 @@
 		padding: .5rem;
 	}
 	.block{
-		position: fixed;
+		position: relative;
 		background-color: #007849;
 		color: white;
 		padding: 2em;
-		width: 10%;
-		margin-left: -10rem;
+		width: 100%;
+		top: 1000px;
 	}
 	.block li {
-		margin-left: -1rem;
+		display: inline;
 	}
 	
 	* {box-sizing:border-box}
