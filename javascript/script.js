@@ -26,7 +26,6 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
-  dots[slideIndex-1].className += " active";
 }
 
 /*var map;
@@ -70,5 +69,5 @@ function init(){
 
 
 }
-init();
+
 google.maps.event.addDomListener(window, 'load', init);
