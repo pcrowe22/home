@@ -49,16 +49,6 @@
 		padding: 1rem;
 		background-color: rgba(240, 0, 0, 0.3);
 	}
-	.sandwich{
-		display: block;
-		background-color: red;
-		text-align: center;
-		height: 100px;
-		width: 100%;
-		color: white;
-		margin: 1rem;
-		font-size: 2rem
-	}
 	nav {
 		padding: 1rem;
 		color: white;
@@ -72,7 +62,7 @@
 		text-align: center;
 	}
 	.dropdownLinks {
-		display: none;
+		display: block;
 		position: relative;
 		z-index: 1;
 		width: 100%;
@@ -147,16 +137,7 @@
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.sandwich{
-		display: block;
-		background-color: red;
-		text-align: center;
-		padding: 1rem;
-		width: 100%;
-		color: white;
-		margin: 1rem;
-		font-size: 2rem
-	}
+
 	nav ul {
 		clear: both;
 		list-style-type: none;
