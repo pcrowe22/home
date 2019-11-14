@@ -46,7 +46,8 @@ function initMap(){
 		mapTypeControlOptions: {
 			position: google.maps.ControlPosition.BOTTOM_CENTER
 		}
-	};
+	}
+}
 
 	var myMap = new google.maps.Map(el, mapOptions);
 
