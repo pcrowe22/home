@@ -426,13 +426,18 @@
 	padding: .7rem;
 	margin: 1rem;
 	}
-	#map {
-    height: 100%;
-  }
+
 	#canvas {
 			width: 700px;
 			height: 500px;
 			background-color: #ccc;
 			margin: 30px auto;
-		}
+	}
+	#container {
+			width: 850px;
+			height: 600px;
+			background-color: #c00;
+			margin:0 auto;
+			overflow: hidden;
+	}
 }
