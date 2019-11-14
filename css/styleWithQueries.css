@@ -75,6 +75,7 @@
 		display: none;
 		position: relative;
 		z-index: 1;
+		width: 100%;
 	}
 	nav ul li {
 		list-style-type: none;
