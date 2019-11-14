@@ -35,7 +35,7 @@ function initMap() {
 		zoom: 8
 	});
 }*/
-function init(){
+function initMap(){
 	alert('This is a map of my neighborhood and where I photograph and compile into my game.');
 	var el = document.getElementById('canvas');
 	var myLocation = new google.maps.LatLng(41.7889, -88.0021);
@@ -155,4 +155,4 @@ function init(){
 
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
