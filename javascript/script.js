@@ -1,5 +1,5 @@
 var sPath = window.location.pathname;
-var sPage = sPath.substring(sPath.lastIndexOf('/' + 1));
+var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
 if (sPage == "map.html") {
 	
 	function initMap(){
