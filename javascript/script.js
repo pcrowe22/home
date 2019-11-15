@@ -1,7 +1,6 @@
 var sPath = window.location.pathname;
 var sPage = sPath.substring(sPath.lastIndexOf('/') + 1);
 if (sPage == "map.html") {
-	
 	function initMap(){
 		var el = document.getElementById('canvas');
 		var myLocation = new google.maps.LatLng(41.7889, -88.0021);
@@ -13,25 +12,20 @@ if (sPage == "map.html") {
 				position: google.maps.ControlPosition.BOTTOM_CENTER
 			}
 		};
-
 		var myMap = new google.maps.Map(el, mapOptions);
-
 		var marker = new google.maps.Marker({
 			position: myLocation,
 			map: myMap,
 			animation: google.maps.Animation.BOUNCE,
 			icon: 'media/triforce.png'
 		});
-
 		var contentString = '<h1>Home Base</h1><p>This is where the game starts, and multiple paths will branch off from here. I want to make a library shelf here where you can put books you have collected from around the neighborhood.</p><p>The Master Swords represent where I have walked in the past.</p>';
 		var infowindow = new google.maps.InfoWindow({
       content: contentString
   	});
-
 		google.maps.event.addListener(marker, 'mouseover', function() {
     	infowindow.open(myMap, marker);
   	});
-		
 		var walkRoute1 = new google.maps.Marker({
 			position: new google.maps.LatLng(41.787177, -88.001968),
 			map: myMap,
@@ -117,25 +111,18 @@ if (sPage == "map.html") {
 			map: myMap,
 			icon: 'media/Master Sword.png'
 		});
-	
 	}
 	google.maps.event.addDomListener(window, 'load', initMap);
 } 
 else if (sPage == "pictures.html") {
-	
 	var slideIndex = 1;
 	showSlides(slideIndex);
-
-// Next/previous controls
 	function plusSlides(n) {
 		showSlides(slideIndex += n);
 	}
-
-// Thumbnail image controls
 	function currentSlide(n) {
 		showSlides(slideIndex = n);
 	}
-
 	function showSlides(n) {
 		var i;
 		var slides = document.getElementsByClassName("mySlides");
