@@ -121,7 +121,7 @@ if (sPage == "map.html") {
 	}
 	google.maps.event.addDomListener(window, 'load', initMap);
 } 
-//if (sPage == "pictures.html") {
+else if (sPage == "pictures.html") {
 	
 	var slideIndex = 1;
 	showSlides(slideIndex);
@@ -151,4 +151,4 @@ if (sPage == "map.html") {
 		slides[slideIndex-1].style.display = "block";
 		dots[slideIndex-1].className += " active";
 	}
-//}
+}
