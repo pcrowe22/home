@@ -123,9 +123,6 @@ if (sPage == "map.html") {
 } 
 if (sPage == "pictures.html") {
 	
-	var slideIndex = 0;
-	showSlides();
-
 	var slideIndex = 1;
 	showSlides(slideIndex);
 
@@ -137,7 +134,7 @@ if (sPage == "pictures.html") {
 // Thumbnail image controls
 	function currentSlide(n) {
 		showSlides(slideIndex = n);
-	}	
+	}
 
 	function showSlides(n) {
 		var i;
@@ -149,7 +146,7 @@ if (sPage == "pictures.html") {
       slides[i].style.display = "none";
 		}
 		for (i = 0; i < dots.length; i++) {
-			dots[i].className = dots[i].className.replace(" active", "");
+      dots[i].className = dots[i].className.replace(" active", "");
 		}
 		slides[slideIndex-1].style.display = "block";
 		dots[slideIndex-1].className += " active";
