@@ -1,3 +1,7 @@
+  body{
+    background-repeat: no-repeat;
+    background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed;
+  }
   p, h1, h2, h3, td, div, ul, tr, table{
     margin: 1rem;
   }
@@ -23,8 +27,6 @@
   }
   #wrapper{
     width: 100%;
-    background-repeat: no-repeat;
-    background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed;
     margin-left: auto;
     margin-right: auto;
   }
