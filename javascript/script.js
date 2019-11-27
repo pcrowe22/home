@@ -115,16 +115,16 @@ if (sPage == "map.html") {
   google.maps.event.addDomListener(window, 'load', initMap);
 } 
 else if (sPage == "pictures.html") {
- $("#click1").click(function(){
-   $("#main-box").toggleClass("archie");
+ document.getElementById("click1").click(function(){
+   document.getElementById("main-box").toggleClass("archie");
  });
- $("#click2").click(function(){
-   $("#main-box").toggleClass("doggy1");
+ dcoument.getElementById("click2").click(function(){
+   document.getElementByid("main-box").toggleClass("doggy1");
  });
- $("#click3").click(function(){
-   $("#main-box").toggleClass("shadow");
+ document.getElementById("click3").click(function(){
+   document.getElementById("main-box").toggleClass("shadow");
  });
- $("#click4").click(function(){
-   $("#main-box").toggleClass("doggy2");
+ document.getElementById("click4").click(function(){
+   document.getElementById("main-box").toggleClass("doggy2");
  });
 }

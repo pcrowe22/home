@@ -85,9 +85,6 @@
     border-radius: 0.25em;
     background-color: red;
   }
-  .show {
-    display: block;
-  }
   
   #resume {
     font-family: 'lucida sans typewriter', 'courier new', monospace;
@@ -122,10 +119,38 @@
   .block li {
     display: inline;
   }
-  .archie {
-    
+  
+  .slideshow-container ul {
+    clear: both;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
   }
-
+  .archie {
+    background-image: url("media/archie.JPG");
+  }
+  .doggy1 {
+    background-image: url("media/Pup.JPG");
+  }
+  .shadow {
+    background-image: url("media/shadow.JPG");
+  }
+  .doggy2 {
+    background-image: url("media/dog.JPG");
+  }
+  .sliderButton {
+    display: inline-block;
+    background-color: green;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  .slideshow-container {
+    width: 90%;
+    position: relative;
+    margin: auto;
+  }
 @media screen and (min-width: 480px) {
   body p, h1, h2, h3, td, div, th, ul, tr, table{
     margin: 2rem;
@@ -167,28 +192,7 @@
     margin: 0 auto;
   }
   
-  .archie {
-    background-image: url("./media/archie.JPG");
-  }
-  .doggy1 {
-    background-image: url("./media/Pup.JPG");
-  }
-  .shadow {
-    background-image: url("./media/shadow.JPG");
-  }
-  .doggy2 {
-    background-image: url("./media/dog.JPG");
-  }
-  .sliderButton {
-    display: inline-block;
-    background-color: green;
-    margin: 0 auto;
-  }
-  .slideshow-container {
-    width: 90%;
-    position: relative;
-    margin: auto;
-  }
+  
   .mySlides {
     display: none;
   }
