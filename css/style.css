@@ -1,6 +1,6 @@
   body{
     background-repeat: no-repeat;
-    background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed;
+    background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed; 
   }
   p, h1, h2, h3, td, div, ul, tr, table{
     margin: 1rem;
@@ -115,7 +115,7 @@
     position: absolute;
     background-color: #007849;
     color: white;
-    padding: 2em;
+    padding: .5em;
     width: 100%;
     bottom: 1000px;
   }
