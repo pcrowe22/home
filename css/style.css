@@ -179,6 +179,11 @@
   .doggy2 {
     background-image: url("./media/dog.JPG");
   }
+  .sliderButton {
+    display: inline-block;
+    background-color: green;
+    margin: 0 auto;
+  }
   .slideshow-container {
     width: 90%;
     position: relative;
