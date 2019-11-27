@@ -118,7 +118,7 @@ else if (sPage == "pictures.html") {
  document.getElementById("click1").click(function(){
    document.getElementById("main-box").toggleClass("archie");
  });
- dcoument.getElementById("click2").click(function(){
+ document.getElementById("click2").click(function(){
    document.getElementByid("main-box").toggleClass("doggy1");
  });
  document.getElementById("click3").click(function(){

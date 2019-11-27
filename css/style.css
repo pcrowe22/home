@@ -129,16 +129,16 @@
     text-align: center;
   }
   .archie {
-    background-image: url("media/archie.JPG");
+    background-image: url("../media/archie.JPG");
   }
   .doggy1 {
-    background-image: url("media/Pup.JPG");
+    background-image: url("../media/Pup.JPG");
   }
   .shadow {
-    background-image: url("media/shadow.JPG");
+    background-image: url("../media/shadow.JPG");
   }
   .doggy2 {
-    background-image: url("media/dog.JPG");
+    background-image: url("../media/dog.JPG");
   }
   .sliderButton {
     display: inline-block;
