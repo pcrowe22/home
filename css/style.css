@@ -122,6 +122,9 @@
   .block li {
     display: inline;
   }
+  .archie {
+    
+  }
 
 @media screen and (min-width: 480px) {
   body p, h1, h2, h3, td, div, th, ul, tr, table{
@@ -164,7 +167,18 @@
     margin: 0 auto;
   }
   
-  
+  .archie {
+    background-image: url("media/archie.JPG");
+  }
+  .doggy1 {
+    background-image: url("media/Pup.JPG");
+  }
+  .shadow {
+    background-image: url("media/shadow.JPG");
+  }
+  .doggy2 {
+    background-image: url("media/dog.JPG");
+  }
   .slideshow-container {
     width: 90%;
     position: relative;
