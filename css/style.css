@@ -130,23 +130,35 @@
   }
   .archie {
     background-image: url("../media/archie.JPG");
-    width: 100%;
-    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
   }
   .doggy1 {
     background-image: url("../media/Pup.JPG");
-    width: 100%;
-    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
   }
   .shadow {
     background-image: url("../media/shadow.JPG");
-    width: 100%;
-    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
   }
   .doggy2 {
     background-image: url("../media/dog.JPG");
-    width: 100%;
-    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
   }
   .sliderButton {
     display: inline-block;
