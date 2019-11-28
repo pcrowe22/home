@@ -116,15 +116,15 @@ if (sPage == "map.html") {
 } 
 else if (sPage == "pictures.html") {
  document.getElementById("click1").addEventListener("click", function(){
-   document.getElementById("main-box").toggleClass("archie");
+   document.getElementById("main-box").className = "archie";
  });
  document.getElementById("click2").addEventListener("click", function(){
-   document.getElementByid("main-box").toggleClass("doggy1");
+   document.getElementById("main-box").className = "doggy1";
  });
  document.getElementById("click3").addEventListener("click", function(){
-   document.getElementById("main-box").toggleClass("shadow");
+   document.getElementById("main-box").className = "shadow";
  });
  document.getElementById("click4").addEventListener("click", function(){
-   document.getElementById("main-box").toggleClass("doggy2");
+   document.getElementById("main-box").className = "doggy2";
  });
 }
