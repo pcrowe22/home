@@ -137,7 +137,7 @@
     height: 300px;
   }
   .doggy1 {
-    background-image: url("../media/Pup.JPG");
+    background-image: url("../media/Pup.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
