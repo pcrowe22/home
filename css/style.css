@@ -1,14 +1,16 @@
 #home {
-    background-color: #EEAA11;
+    // background-color: #FFAA00;
+    background-repeat: no-repeat;
+    background: linear-gradient(#FFAA00 0, #ffc859 100%) fixed;
 }
 #homeBody {
     color: #AA11EE;
 }
 
-def-body{
+def-body {
     background-repeat: no-repeat;
-    background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed; 
-  }
+    background: linear-gradient(#FFAA00 0, #ffc859 100%) fixed;
+}
   p, h1, h2, h3, td, div, ul, tr, table{
     margin: 1rem;
   }
