@@ -1,4 +1,11 @@
-  body{
+home {
+    background: #EEAA11;
+}
+homeBody {
+    color: #AA11EE
+}
+
+def-body{
     background-repeat: no-repeat;
     background: linear-gradient(#FFFFC8 0,#FF8E00 100%) fixed; 
   }
@@ -81,10 +88,10 @@
     padding: 0.5em;
     width: 100%;
   }
-  .dropdownLinks a:hover{
-    border-radius: 0.25em;
-    background-color: red;
-  }
+    .dropdownLinks a:hover {
+        border-radius: 0.25em;
+        background-color: #11EEAA;
+    }
   
   #resume {
     font-family: 'lucida sans typewriter', 'courier new', monospace;
