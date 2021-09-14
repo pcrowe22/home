@@ -58,7 +58,7 @@
 .defaultBody a:link {
     color: dimgray;
 }
-.defaultBody a:link {
+.defaultBody a:visited {
     color: #830db8;
 }
 
