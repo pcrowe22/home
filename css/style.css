@@ -6,6 +6,9 @@
 #homeBody {
     color: #830db8;
 }
+#piechart {
+    float: right;
+}
 .skillList {
     float: left;
 }
