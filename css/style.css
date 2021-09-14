@@ -9,6 +9,10 @@
 #piechart {
     float: right;
 }
+#collage {
+    position: absolute;
+    width: 100px;
+}
 .skillList {
     float: left;
 }
