@@ -2,8 +2,10 @@
     float: right;
 }
 #collage {
-    position: absolute;
-    width: 100px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
 }
 #chicago {
     max-width: 100%;
