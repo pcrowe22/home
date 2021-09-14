@@ -2,19 +2,27 @@
     float: left;
 }
 #piechart {
+    float: right;
     max-width: 50%;
 }
 #linkListHolder {
+    float: left;
     max-width: 50%;
 }
-#collage {
+.collage {
     position: fixed;
-    left: 0;
     top: 0;
     width: 280px;
 }
+#leftCollage {
+    left: 0;
+}
+#rightCollage {
+    right: 0;
+}
 #chicago {
     max-width: 50%;
+    float: left;
 }
 #fall {
     max-width: 50%;
@@ -27,6 +35,7 @@
 }
 #p1 {
     max-width: 50%;
+    float: right;
 }
 #p2 {
     max-width: 50%;
