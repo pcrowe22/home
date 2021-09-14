@@ -6,6 +6,9 @@
 #homeBody {
     color: #830db8;
 }
+.skillList {
+    float: left;
+}
 
 def-body {
     background-repeat: no-repeat;
