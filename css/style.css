@@ -26,6 +26,7 @@
 }
 #fall {
     max-width: 50%;
+    float: right;
 }
 #albums {
     max-width: 100%;
@@ -39,6 +40,7 @@
 }
 #p2 {
     max-width: 50%;
+    float: left;
 }
 #pup {
     max-width: 100%;
