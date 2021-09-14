@@ -1,9 +1,10 @@
+#intro {
+    float: left;
+}
 #piechart {
-    float: right;
     max-width: 50%;
 }
 #linkListHolder {
-    float: left;
     max-width: 50%;
 }
 #collage {
