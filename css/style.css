@@ -41,6 +41,12 @@
 .defaultBody {
     color: #830db8;
 }
+.defaultBody a:link {
+    color: dimgray;
+}
+.defaultBody a:link {
+    color: #830db8;
+}
 
 def-body {
     background-repeat: no-repeat;
