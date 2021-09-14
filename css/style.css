@@ -5,11 +5,31 @@
     position: absolute;
     width: 100px;
 }
+#chicago {
+    max-width: 100%;
+}
+#fall {
+    max-width: 100%;
+}
+#albums {
+    max-width: 100%;
+}
+#station {
+    max-width: 100%;
+}
+#p1 {
+    max-width: 100%;
+}
+#p2 {
+    max-width: 100%;
+}
+#pup {
+    max-width: 100%;
+}
 .skillList {
     float: left;
 }
 .default {
-    // background-color: #FFAA00;
     background-repeat: no-repeat;
     background: linear-gradient(#FFAA00 0, #ffc859 100%) fixed;
 }
