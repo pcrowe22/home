@@ -1,6 +1,9 @@
 #piechart {
     float: right;
 }
+#linkListHolder {
+    float: left;
+}
 #collage {
     position: fixed;
     left: 0;
