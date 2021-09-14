@@ -6,9 +6,6 @@
     float: right;
     max-width: 50%;
 }
-#linkListHolder {
-    float: left;
-}
 .collage {
     position: fixed;
     top: 0;
