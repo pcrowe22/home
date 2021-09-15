@@ -70,6 +70,7 @@
 }
 .defaultBody {
     color: #830db8;
+    font-family: 'Bree Serif', 'century gothic', monospace;
 }
 .defaultBody a:link {
     color: dimgray;
