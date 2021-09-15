@@ -60,6 +60,7 @@
 }
 #ice {
     max-width: 100%;
+    display: block;
 }
 #island {
     max-width: 50%;
