@@ -10,12 +10,14 @@
     clear: both;
 }
 #bluepattern {
-    object-fit: cover;
+    background-image: url(/home/media/Bluetitlecard.png);
+    overflow: hidden;
 }
 .collage {
     position: fixed;
     top: 0;
     width: 280px;
+    overflow: hidden;
 }
 #leftCollage {
     left: 0;
