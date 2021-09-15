@@ -19,6 +19,7 @@
     top: 0;
     width: 280px;
     overflow: hidden;
+    height: 100%;
 }
 #leftCollage {
     left: 0;
