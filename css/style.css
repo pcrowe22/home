@@ -11,6 +11,7 @@
 }
 #bluepattern {
     background-image: url(/home/media/Bluetitlecard.png);
+    background-repeat: repeat-y;
     overflow: hidden;
 }
 .collage {
@@ -132,10 +133,12 @@ def-body {
     padding: 1rem;
     background-color: rgba(240, 0, 0, 0.3);
   }
-  nav {
+nav {
     padding: 1rem;
     color: white;
-  }
+    background-color: lightblue;
+    margin: 1rem;
+}
   nav ul {
     clear: both;
     list-style-type: none;
