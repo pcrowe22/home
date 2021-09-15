@@ -38,6 +38,7 @@
 }
 #albums {
     max-width: 100%;
+    display: block;
 }
 #station {
     max-width: 100%;
@@ -58,8 +59,7 @@
     max-width: 100%;
 }
 #ice {
-    max-width: 50%;
-    float: right;
+    max-width: 100%;
 }
 #island {
     max-width: 50%;
