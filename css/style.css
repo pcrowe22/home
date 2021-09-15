@@ -52,8 +52,7 @@
     float: right;
 }
 #pup {
-    max-width: 50%;
-    float: left;
+    max-width: 100%;
 }
 #ice {
     max-width: 50%;
