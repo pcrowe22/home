@@ -13,6 +13,7 @@
     background-image: url(/home/media/Bluetitlecard.png);
     background-repeat: repeat-y;
     overflow: hidden;
+    display: block;
 }
 .collage {
     position: fixed;
