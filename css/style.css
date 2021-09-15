@@ -6,8 +6,11 @@
     float: right;
     max-width: 50%;
 }
-#welcom {
+#welcome {
     clear: both;
+}
+#bluepattern {
+    object-fit: cover;
 }
 .collage {
     position: fixed;
