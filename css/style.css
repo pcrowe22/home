@@ -421,13 +421,19 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  body .block{
-    position: fixed;
-    width: 10%;
-    margin-left: -10rem;
-    top: 0px;
-    bottom: 0px;
-  }
-  body .block li {
-    margin-left: -1rem;
-  }
+    .collage {
+        width: 0px;
+    }
+
+    body .block {
+        position: fixed;
+        width: 10%;
+        margin-left: -10rem;
+        top: 0px;
+        bottom: 0px;
+    }
+
+        body .block li {
+            margin-left: -1rem;
+        }
+}
